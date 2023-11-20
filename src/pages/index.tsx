@@ -8,14 +8,15 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <img
+        {/* <img
           src="/vercel-and-notion.png"
           height="85"
           width="250"
           alt="Vercel + Notion"
-        />
-        <h1>My Notion Blog</h1>
-        <h2>
+        /> */}
+        <h1>Pleasr Hub</h1>
+        <br></br>
+        {/* <h2>
           Blazing Fast Notion Blog with Next.js'{' '}
           <ExtLink
             href="https://github.com/vercel/next.js/issues/9524"
@@ -24,30 +25,25 @@ export default function Index() {
           >
             SSG
           </ExtLink>
-        </h2>
+        </h2> */}
 
-        <Features />
+        {/* <Features /> */}
 
         <div className="explanation">
           <p>
-            This is a statically generated{' '}
-            <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
-            <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
-            is deployed with <ExtLink href="https://vercel.com">Vercel</ExtLink>
-            . It leverages some upcoming features in Next.js like{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/9524">
-              SSG support
-            </ExtLink>{' '}
-            and{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/8626">
-              built-in CSS support
-            </ExtLink>{' '}
-            which allow us to achieve all of the benefits listed above including
-            blazing fast speeds, great local editing experience, and always
-            being available!
+            In 2023, our DAO continues to be rich in talent, yet many members
+            remain uninvolved, missing opportunities to engage, which, in turn,
+            affects the overall vitality of the group. Secondly, we have a
+            history of compensating people without always achieving our intended
+            outcomes. To address this, PleasrHub will kick off as an
+            outcomes-driven system to better ensure the successful completion of
+            tasks and to give members the opportunity to engage and get
+            meaningfully rewarded. In the near future, we will expand its scope,
+            allowing the broader DAO to post their own tasks with the associated
+            benefits and monetary recognition.
           </p>
 
-          <p>
+          {/* <p>
             Get started by creating a new page in Notion and clicking the deploy
             button below. After you supply your token and the blog index id (the
             page's id in Notion) we will automatically create the table for you!
@@ -59,7 +55,7 @@ export default function Index() {
             and look for a cookie under www.notion.so with the name `token_v2`.
             After finding your token and your blog's page id you should be good
             to go!
-          </p>
+          </p> */}
         </div>
       </div>
     </>
